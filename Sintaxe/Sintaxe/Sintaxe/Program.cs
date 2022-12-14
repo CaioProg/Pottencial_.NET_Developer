@@ -1,14 +1,22 @@
 ﻿using Sintaxe.Models;
 
 
+int a = 10;
+int b = 20;
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+int c = a + b;
+
+// c = c + 5; // 30 + 5
+
+// c += 5;
+
+c -= 5;
+
+Console.WriteLine(c);   
 
 
-
-
-
+//DateTime dataAtual = DateTime.Now.AddDays(5);
+//Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 
