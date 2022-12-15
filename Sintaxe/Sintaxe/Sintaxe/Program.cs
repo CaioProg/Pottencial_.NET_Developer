@@ -3,21 +3,104 @@
 
 
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 11;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
-Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
-if (possivelVenda)
+
+
+
+
+
+switch(letra)
 {
-    Console.WriteLine("Venda realizada!");
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+    default:
+        Console.WriteLine("Não é uma vogal");
+        break;
 }
-else
-{
-    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
-}
+
+
+
+
+//if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else
+//{
+//    Console.WriteLine("Não é uma vogal");
+//}
+
+
+
+
+//if(letra == "a")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if (letra == "e")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if (letra == "i")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if (letra == "0")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if (letra == "u")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else
+//{
+//    Console.WriteLine("Não é uma vogal");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int quantidadeEmEstoque = 10;
+//int quantidadeCompra = 0;
+//bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra && quantidadeCompra > 0;
+
+//Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+//Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+//Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
+
+//if(quantidadeCompra == 0)
+//{
+//    Console.WriteLine("Venda inválida!");
+//}
+//else if (possivelVenda)
+//{
+//    Console.WriteLine("Venda realizada!");
+//}
+//else
+//{
+//    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
+//}
 
 
 
