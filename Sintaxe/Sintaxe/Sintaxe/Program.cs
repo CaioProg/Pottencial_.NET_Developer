@@ -1,29 +1,131 @@
 ﻿using Sintaxe.Models;
 
 
+bool choveu = true;
+bool estaTarde = true;
 
-
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
-
-
-
-
-
-
-switch(letra)
+if (!choveu && !estaTarde)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
-    default:
-        Console.WriteLine("Não é uma vogal");
-        break;
+    Console.WriteLine("Vou pedalar");   
 }
+else
+{
+    Console.WriteLine("Vou pedalar outro dia");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//bool possuiPresencaMinima = true;
+//double Media = 7.5;
+
+//if(possuiPresencaMinima &&  Media >= 7)
+//{
+//    Console.WriteLine("Aprovado!");
+//}
+//else
+//{
+//    Console.WriteLine("Reprovado!");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+//bool eMaiorDeIdade = false;
+//bool possuiAutorizacao = true;
+
+//if (eMaiorDeIdade || possuiAutorizacao)
+//{
+//    Console.WriteLine("Entrada liberada!!");
+//}
+//else
+//{ 
+//    Console.WriteLine("Entrada não liberada!!");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Console.WriteLine("Digite uma letra");
+//string letra = Console.ReadLine();
+
+
+
+
+
+
+//switch(letra)
+//{
+//    case "a":
+//    case "e":
+//    case "i":
+//    case "o":
+//    case "u":
+//        Console.WriteLine("Vogal");
+//        break;
+//    default:
+//        Console.WriteLine("Não é uma vogal");
+//        break;
+//}
 
 
 
