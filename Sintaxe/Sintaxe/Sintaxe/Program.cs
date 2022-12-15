@@ -2,11 +2,26 @@
 
 
 
-// Cast - Castinh
-// int a = Convert.ToInt32("5");
-int a = int.Parse("5c");
+
+int inteiro = 5;
+string a = inteiro.ToString();
 
 Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+// Cast - Castinh
+//int a = Convert.ToInt32(null);
+// int a = int.Parse(null);
+
+//Console.WriteLine(a);
 
 
 
