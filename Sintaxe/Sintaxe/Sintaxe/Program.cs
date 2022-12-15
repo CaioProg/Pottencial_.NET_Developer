@@ -3,6 +3,44 @@
 
 
 
+string a = "15-";
+
+//int b = 0;
+
+int.TryParse(a, out int b);
+
+
+Console.WriteLine(b); 
+Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+
+
+
+
+
+//double a = 4 / (2 + 2);
+
+//Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //int a = 5;
 //double b = a;
@@ -10,10 +48,10 @@
 //long a = long.MaxValue;
 //int b = Convert.ToInt32(a);
 
-int a = int.MaxValue;
-long b = a;
+//int a = int.MaxValue;
+//long b = a;
 
-Console.WriteLine(b);
+//Console.WriteLine(b);
 
 
 
