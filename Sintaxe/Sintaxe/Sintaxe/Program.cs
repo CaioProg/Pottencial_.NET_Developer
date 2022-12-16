@@ -12,22 +12,22 @@ Calculadora calc = new Calculadora();
 //calc.Seno(30);
 //calc.Coseno(30);
 //calc.Tangente(30);
+calc.RaizQuadrada(9);
+//int numero = 10;
 
-int numero = 10;
+//Console.WriteLine(numero);
 
-Console.WriteLine(numero);
+//Console.WriteLine("Incrementando o 10");
+////numero = numero + 1;
+//numero++;
 
-Console.WriteLine("Incrementando o 10");
-//numero = numero + 1;
-numero++;
+//Console.WriteLine(numero);
 
-Console.WriteLine(numero);
+//Console.WriteLine("Decrementando o 11");
+////numero = numero + 1;
+//numero--;
 
-Console.WriteLine("Decrementando o 11");
-//numero = numero + 1;
-numero--;
-
-Console.WriteLine(numero);
+//Console.WriteLine(numero);
 
 
 
