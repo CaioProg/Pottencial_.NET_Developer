@@ -9,12 +9,25 @@ Calculadora calc = new Calculadora();
 //calc.Dividir(100, 30);
 //calc.Multiplicar(10, 30);
 //calc.Potencia(3, 3);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
+//calc.Seno(30);
+//calc.Coseno(30);
+//calc.Tangente(30);
 
+int numero = 10;
 
+Console.WriteLine(numero);
 
+Console.WriteLine("Incrementando o 10");
+//numero = numero + 1;
+numero++;
+
+Console.WriteLine(numero);
+
+Console.WriteLine("Decrementando o 11");
+//numero = numero + 1;
+numero--;
+
+Console.WriteLine(numero);
 
 
 
