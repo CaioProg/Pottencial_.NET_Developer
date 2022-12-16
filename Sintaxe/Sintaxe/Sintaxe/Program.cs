@@ -1,17 +1,41 @@
 ﻿using Sintaxe.Models;
 
 
-bool choveu = true;
-bool estaTarde = true;
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("Vou pedalar");   
-}
-else
-{
-    Console.WriteLine("Vou pedalar outro dia");
-}
+Calculadora calc = new Calculadora();
+
+calc.Somar(10, 30);
+calc.Subtrair(10, 30);
+calc.Dividir(100, 30);
+calc.Multiplicar(10, 30);
+calc.Potencia(3, 3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//bool choveu = true;
+//bool estaTarde = true;
+
+//if (!choveu && !estaTarde)
+//{
+//    Console.WriteLine("Vou pedalar");   
+//}
+//else
+//{
+//    Console.WriteLine("Vou pedalar outro dia");
+//}
 
 
 
