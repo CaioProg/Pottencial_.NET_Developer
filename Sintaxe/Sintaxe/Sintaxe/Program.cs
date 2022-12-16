@@ -1,13 +1,33 @@
 ﻿using Sintaxe.Models;
 
+
+
 int numero = 5;
+int contador= 0;
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{contador + 1}° Execução: {numero} x {contador} = {numero * contador}");
+    contador++;
+}
+
+
+
+
+
+
+
+
+
+
+//int numero = 5;
 
 // Console.WriteLine($"{numero} x 1 = {numero * 1}");
 
-for(int contador = 0; contador <= 10; contador++)
-{
-    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
-}
+//for(int contador = 0; contador <= 10; contador++)
+//{
+//    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//}
 
 
 
