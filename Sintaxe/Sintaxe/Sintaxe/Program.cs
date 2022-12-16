@@ -2,8 +2,9 @@
 
 
 string opcao;
+bool exibirMenu = true;
 
-while(true)
+while(exibirMenu)
 {
     Console.Clear();
     Console.WriteLine($"Digite a sua opção:");
@@ -27,7 +28,8 @@ while(true)
             break;
         case "4":
             Console.WriteLine("Encerrar");
-            Environment.Exit(0);
+            exibirMenu = false;
+            //Environment.Exit(0);
             break;
 
         default:
@@ -36,6 +38,7 @@ while(true)
     }
 }
 
+Console.WriteLine("O programa se encerrou");   
 
 
 
