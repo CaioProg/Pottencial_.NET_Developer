@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sintaxe.Models
 {
-    internal class Calculadora
+    public class Calculadora
     {
         public void Somar(int x, int y)
         {
