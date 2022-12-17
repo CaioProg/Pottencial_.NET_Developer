@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dr4N16ZOIgn6qYkh2IiS5tsnn2Og0mTK573y5u0Hx6rFJ3UJRa2PvL8FzYf+pQvtgo7kbdMRYwmxg2SruKYSaw==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\Conhecendo a Plataforma .NET com C#\\Sintaxe\\Sintaxe\\ExemploFundamentos.NTE5\\ExemploFundamentos.NTE5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CaioLucas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
