@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Sintaxe"
+    "\\ExemploFundamentos",
+    "\\Exercicios",
+    "\\Sintaxe\\Models"
   ],
-  "SelectedNode": "\\Sintaxe\\Sintaxe.csproj",
+  "SelectedNode": "\\Exercicios\\Exercicios.csproj",
   "PreviewInSolutionExplorer": false
 }

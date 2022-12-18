@@ -1,10 +1,6 @@
 ﻿
 
 
-
-
-
-
 List<string> listaString = new List<string>();
 
 listaString.Add("SP");
@@ -22,7 +18,6 @@ Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade {list
 listaString.Remove("MG");
 
 Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade {listaString.Capacity}");
-
 
 // Console.WriteLine("Percorrendo o Array com o FOR");
 // for(int contador = 0; contador < listaString.Count; contador++)
