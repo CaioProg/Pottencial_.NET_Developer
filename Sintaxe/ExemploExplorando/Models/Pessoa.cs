@@ -8,6 +8,8 @@ namespace ExemploExplorando.Models
     public class Pessoa
     {   
         private string _nome;
+        private int _idade;
+
         public string Nome 
         { 
             get => _nome.ToUpper();
@@ -16,7 +18,7 @@ namespace ExemploExplorando.Models
             {
                 if(value == "")
                 {
-                    throw new ArgumentException("O nome não pode ser vazio");
+                    throw new ArgumentException("O nome não pode ser vazio.");
                 }
 
                 _nome = value;
@@ -24,7 +26,20 @@ namespace ExemploExplorando.Models
         }
 
 
-        public int Idade { get; set; }
+        public int Idade
+        { 
+            get => _idade;
+        
+            set
+            {
+                if(value <= 0)
+                {
+                    throw new ArgumentException("A idade não pode ser menor que 0.");
+                }
+
+                _idade = value;
+            } 
+        }
 
         public void Apresentar()
         {
