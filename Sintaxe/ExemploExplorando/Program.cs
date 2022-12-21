@@ -6,15 +6,24 @@ using System.Globalization;
 
 try
 {
-    string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+    string[] linhas = File.ReadAllLines("Arquivoss/arquivo_Leitura.txt");
 
     foreach(string linha in linhas)
     {
         Console.WriteLine(linha);
-}
-} catch(Exception ex)
+    }
+} 
+catch(FileNotFoundException ex)
 {
-    Console.WriteLine($"Ocorreu uma exeção genérica. {ex.Message}");
+    Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+}
+catch(DirectoryNotFoundException ex)
+{
+    Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Caminho da pasta não encontrado. {ex.Message}");
+}
+catch(Exception ex)
+{
+    Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
 }
 
 Console.WriteLine($"Chegou até aqui.");
