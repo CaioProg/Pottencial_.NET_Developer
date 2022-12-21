@@ -1,19 +1,38 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
-decimal valorMonetario = 1582.40M;
+DateTime data = DateTime.Now;
 
-Console.WriteLine(valorMonetario.ToString("C8"));
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
 
 
-double porcentagem = .3431;
 
-Console.WriteLine(porcentagem.ToString("p"));
 
-int numero = 123456;
-Console.WriteLine(numero.ToString("##-##-##"));
+
+
+
+
+
+
+
+
+
+
+
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+
+// decimal valorMonetario = 1582.40M;
+
+// Console.WriteLine(valorMonetario.ToString("C8"));
+
+
+// double porcentagem = .3431;
+
+// Console.WriteLine(porcentagem.ToString("p"));
+
+// int numero = 123456;
+// Console.WriteLine(numero.ToString("##-##-##"));
 
 
 
