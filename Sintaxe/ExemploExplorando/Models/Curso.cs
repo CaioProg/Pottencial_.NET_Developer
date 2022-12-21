@@ -9,7 +9,6 @@ namespace ExemploExplorando.Models
     {
         public string Nome { get; set; }
         public List<Pessoa> Alunos { get; set; }
-
         public void AdicionarAluno(Pessoa aluno)
         {
             Alunos.Add(aluno);
@@ -32,7 +31,8 @@ namespace ExemploExplorando.Models
 
             for(int count = 0; count  < Alunos.Count; count++ )
             {
-                string texto = "N " + count + " - " + Alunos[count].NomeCompleto;
+                //string texto = "N " + count + " - " + Alunos[count].NomeCompleto;
+                string texto = $"N {count} - {Alunos[count].NomeCompleto}";
                 Console.WriteLine(texto);
             }
         }
