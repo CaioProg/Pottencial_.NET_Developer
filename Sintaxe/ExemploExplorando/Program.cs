@@ -8,9 +8,12 @@ decimal valorMonetario = 1582.40M;
 Console.WriteLine(valorMonetario.ToString("C8"));
 
 
+double porcentagem = .3431;
 
+Console.WriteLine(porcentagem.ToString("p"));
 
-
+int numero = 123456;
+Console.WriteLine(numero.ToString("##-##-##"));
 
 
 
