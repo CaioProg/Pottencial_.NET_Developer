@@ -31,5 +31,4 @@ namespace ExemploExplorando.Models
             throw new Exception("Ocorreu uma exceção");
         } 
     }
-    
 }
