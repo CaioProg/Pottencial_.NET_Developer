@@ -1,11 +1,52 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-Pessoa p1 = new Pessoa("Caio", "Abreu");
+int numero = 21;
+bool ehPar = false; 
 
-(string nome, string sobrenome) = p1;
+// IF Ternário
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
 
-Console.WriteLine($"{nome} {sobrenome}");
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O número {numero} é ímpar");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Caio", "Abreu");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
 
 
 
