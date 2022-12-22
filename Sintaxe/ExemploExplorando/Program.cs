@@ -1,10 +1,10 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-// Maneiras de representar uma Tulpa
+// Maneiras de representar uma Tupla
 (int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Caio", "Lucas", 1.82M);
-ValueTuple<int, string, string, decimal> outroExemplo = (1, "Caio", "Lucas", 1.82M);
-var outroExemploTuplaCreate = Tuple.Create(1, "Caio", "Lucas", 1.82M);
+// ValueTuple<int, string, string, decimal> outroExemplo = (1, "Caio", "Lucas", 1.82M);
+// var outroExemploTuplaCreate = Tuple.Create(1, "Caio", "Lucas", 1.82M);
 
 
 Console.WriteLine($"Id: {tupla.Item1}");
