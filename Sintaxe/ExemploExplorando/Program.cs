@@ -3,14 +3,33 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
-dynamic variavelDinamica = 4;
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
 
-variavelDinamica = "TEXTO";
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
 
-variavelDinamica = true;
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dynamic variavelDinamica = 4;
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+// variavelDinamica = "TEXTO";
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+// variavelDinamica = true;
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
 
 
 
