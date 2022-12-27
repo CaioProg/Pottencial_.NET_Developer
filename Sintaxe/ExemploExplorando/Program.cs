@@ -3,16 +3,43 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+dynamic variavelDinamica = 4;
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+variavelDinamica = "TEXTO";
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
 
-var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco});
+variavelDinamica = true;
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
 
-foreach (var venda in listaAnonimo)
-{
-    Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco});
+
+// foreach (var venda in listaAnonimo)
+// {
+//     Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+// }
 
 
 
