@@ -2,11 +2,44 @@
 using System.Globalization;
 using Newtonsoft.Json;
 
-var tipoAnonimo = new {Nome = "Caio", Sobrenome = "Lucas", Altura = 1.82};
 
-Console.WriteLine("Nome: " + tipoAnonimo.Nome);
-Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
-Console.WriteLine("Altura: " + tipoAnonimo.Altura);
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco});
+
+foreach (var venda in listaAnonimo)
+{
+    Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var tipoAnonimo = new {Nome = "Caio", Sobrenome = "Lucas", Altura = 1.82};
+
+// Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+// Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+// Console.WriteLine("Altura: " + tipoAnonimo.Altura);
 
 
 
