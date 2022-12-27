@@ -3,17 +3,58 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
-bool? desejaReceberEmail = true;
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}" + $"{(venda.Desconto.HasValue ? $", Desconto de: {venda.Desconto}" : "")}");
+    
+}
 
 
-if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
-{
-    Console.WriteLine("O usuário optou por receber e-mail.");
-}
-else
-{
-    Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail.");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bool? desejaReceberEmail = true;
+
+
+// if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+// {
+//     Console.WriteLine("O usuário optou por receber e-mail.");
+// }
+// else
+// {
+//     Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail.");
+// }
 
 
 
