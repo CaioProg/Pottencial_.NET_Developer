@@ -13,3 +13,5 @@ C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\ExemploExplorando\obj\D
 C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.pdb
 C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.genruntimeconfig.cache
 C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\ExemploExplorando\obj\Debug\net6.0\ref\ExemploExplorando.dll
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\ExemploExplorando\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.csproj.CopyComplete
