@@ -1,0 +1,15 @@
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\bin\Debug\net6.0\Sintaxe.exe
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\bin\Debug\net6.0\Sintaxe.deps.json
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\bin\Debug\net6.0\Sintaxe.runtimeconfig.json
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\bin\Debug\net6.0\Sintaxe.dll
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\bin\Debug\net6.0\Sintaxe.pdb
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.csproj.AssemblyReference.cache
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.AssemblyInfoInputs.cache
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.AssemblyInfo.cs
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.csproj.CoreCompileInputs.cache
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.dll
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\refint\Sintaxe.dll
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.pdb
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\Sintaxe.genruntimeconfig.cache
+C:\Workspace\Conhecendo a Plataforma .NET com C#\Sintaxe\Sintaxe\Sintaxe\obj\Debug\net6.0\ref\Sintaxe.dll
