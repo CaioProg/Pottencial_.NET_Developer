@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-    public class ALuno : Pessoa
+    public class Aluno : Pessoa
     {
         public double Nota { get; set; }
+        public override void Apresentar()
+        {
+            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos, e sou um aluno nota {Nota}");
+        }
     }
 }
