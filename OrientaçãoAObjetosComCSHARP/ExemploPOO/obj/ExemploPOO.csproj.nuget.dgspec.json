@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\ExemploPOO\\ExemploPOO.csproj": {}
+    "C:\\Workspace\\Conhecendo a Plataforma .NET com C#\\OrientaçãoAObjetosComCSHARP\\ExemploPOO\\ExemploPOO.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\ExemploPOO\\ExemploPOO.csproj": {
+    "C:\\Workspace\\Conhecendo a Plataforma .NET com C#\\OrientaçãoAObjetosComCSHARP\\ExemploPOO\\ExemploPOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\ExemploPOO\\ExemploPOO.csproj",
+        "projectUniqueName": "C:\\Workspace\\Conhecendo a Plataforma .NET com C#\\OrientaçãoAObjetosComCSHARP\\ExemploPOO\\ExemploPOO.csproj",
         "projectName": "ExemploPOO",
-        "projectPath": "C:\\Workspace\\ExemploPOO\\ExemploPOO.csproj",
+        "projectPath": "C:\\Workspace\\Conhecendo a Plataforma .NET com C#\\OrientaçãoAObjetosComCSHARP\\ExemploPOO\\ExemploPOO.csproj",
         "packagesPath": "C:\\Users\\CaioLucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\ExemploPOO\\obj\\",
+        "outputPath": "C:\\Workspace\\Conhecendo a Plataforma .NET com C#\\OrientaçãoAObjetosComCSHARP\\ExemploPOO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CaioLucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
