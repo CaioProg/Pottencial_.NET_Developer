@@ -16343,6 +16343,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Workspace\\Conhecendo a Plataforma .NET com C#\\ProjetoMVC\\Views\\Contato\\Deletar.cshtml",
+      "TargetPath": "Views\\Contato\\Deletar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Workspace\\Conhecendo a Plataforma .NET com C#\\ProjetoMVC\\Views\\Contato\\Editar.cshtml",
       "TargetPath": "Views\\Contato\\Editar.cshtml",
       "FileKind": "mvc"
