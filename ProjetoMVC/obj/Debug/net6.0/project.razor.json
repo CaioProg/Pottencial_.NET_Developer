@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Workspace\\Conhecendo a Plataforma .NET com C#\\ProjetoMVC\\Views\\Contato\\Detalhes.cshtml",
+      "TargetPath": "Views\\Contato\\Detalhes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Workspace\\Conhecendo a Plataforma .NET com C#\\ProjetoMVC\\Views\\Contato\\Index.cshtml",
       "TargetPath": "Views\\Contato\\Index.cshtml",
       "FileKind": "mvc"
